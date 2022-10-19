@@ -13,7 +13,7 @@ import {
   QueryService,
   UpdateManyResponse,
   UpdateOneOptions
-} from '@ptc-org/nestjs-query-core'
+} from '@eavios/nestjs-query-core'
 import { Document, Model as MongooseModel, PipelineStage, UpdateQuery } from 'mongoose'
 
 import { AggregateBuilder, FilterQueryBuilder } from '../query'
@@ -55,7 +55,7 @@ export class MongooseQueryService<Entity extends Document>
   }
 
   /**
-   * Query for multiple entities, using a Query from `@ptc-org/nestjs-query-core`.
+   * Query for multiple entities, using a Query from `@eavios/nestjs-query-core`.
    *
    * @example
    * ```ts
@@ -186,7 +186,7 @@ export class MongooseQueryService<Entity extends Document>
   }
 
   /**
-   * Update multiple entities with a `@ptc-org/nestjs-query-core` Filter.
+   * Update multiple entities with a `@eavios/nestjs-query-core` Filter.
    *
    * @example
    * ```ts
@@ -227,7 +227,7 @@ export class MongooseQueryService<Entity extends Document>
   }
 
   /**
-   * Delete multiple records with a `@ptc-org/nestjs-query-core` `Filter`.
+   * Delete multiple records with a `@eavios/nestjs-query-core` `Filter`.
    *
    * @example
    *

@@ -8,7 +8,7 @@ import {
   CreateOneInputType,
   UpdateManyInputType,
   UpdateOneInputType
-} from '@ptc-org/nestjs-query-graphql'
+} from '@eavios/nestjs-query-graphql'
 
 import { GqlContext } from './auth/auth.guard'
 import { AuthService } from './auth/auth.service'

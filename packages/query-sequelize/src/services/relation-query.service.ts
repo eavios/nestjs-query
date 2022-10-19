@@ -8,7 +8,7 @@ import {
   GetByIdOptions,
   ModifyRelationOptions,
   Query
-} from '@ptc-org/nestjs-query-core'
+} from '@eavios/nestjs-query-core'
 import { ModelCtor as SequelizeModelCtor } from 'sequelize'
 import { MakeNullishOptional } from 'sequelize/types/utils'
 import { Model, ModelCtor } from 'sequelize-typescript'

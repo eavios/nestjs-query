@@ -1,5 +1,5 @@
 import { FactoryProvider } from '@nestjs/common'
-import { AssemblerSerializer, getQueryServiceToken } from '@ptc-org/nestjs-query-core'
+import { AssemblerSerializer, getQueryServiceToken } from '@eavios/nestjs-query-core'
 import { DocumentType, mongoose, ReturnModelType } from '@typegoose/typegoose'
 import { Base } from '@typegoose/typegoose/lib/defaultClasses'
 import { isClass } from 'is-class'

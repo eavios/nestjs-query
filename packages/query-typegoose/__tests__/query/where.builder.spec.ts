@@ -1,4 +1,4 @@
-import { Filter } from '@ptc-org/nestjs-query-core'
+import { Filter } from '@eavios/nestjs-query-core'
 import { getModelForClass, mongoose } from '@typegoose/typegoose'
 
 import { WhereBuilder } from '../../src/query'

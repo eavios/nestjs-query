@@ -1,4 +1,4 @@
-import { AggregateQuery, Filter, getFilterFields, Paging, Query, SortField } from '@ptc-org/nestjs-query-core'
+import { AggregateQuery, Filter, getFilterFields, Paging, Query, SortField } from '@eavios/nestjs-query-core'
 import merge from 'lodash.merge'
 import {
   DeleteQueryBuilder,

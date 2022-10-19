@@ -1,4 +1,4 @@
-import { AssemblerDeserializer } from '@ptc-org/nestjs-query-core'
+import { AssemblerDeserializer } from '@eavios/nestjs-query-core'
 
 import { getAssemblerDeserializer } from '../../src/assemblers/assembler.deserializer'
 

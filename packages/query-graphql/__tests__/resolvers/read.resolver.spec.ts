@@ -1,6 +1,6 @@
 // eslint-disable-next-line max-classes-per-file
 import { Args, ArgsType, Field, Query, Resolver } from '@nestjs/graphql'
-import { Filter } from '@ptc-org/nestjs-query-core'
+import { Filter } from '@eavios/nestjs-query-core'
 import { anything, deepEqual, objectContaining, when } from 'ts-mockito'
 
 import {

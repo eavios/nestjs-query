@@ -1,11 +1,11 @@
 import { Query, Resolver } from '@nestjs/graphql'
-import { SortDirection } from '@ptc-org/nestjs-query-core'
+import { SortDirection } from '@eavios/nestjs-query-core'
 import {
   CursorQueryArgsType,
   NonePagingQueryArgsType,
   OffsetQueryArgsType,
   PagingStrategies
-} from '@ptc-org/nestjs-query-graphql'
+} from '@eavios/nestjs-query-graphql'
 import { deepEqual, objectContaining, when } from 'ts-mockito'
 
 import { ReadRelationsResolver, RelationsOpts } from '../../../src/resolvers/relations'

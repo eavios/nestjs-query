@@ -1,9 +1,9 @@
 {
-  "name": "@ptc-org/nestjs-query-typegoose",
+  "name": "@eavios/nestjs-query-typegoose",
   "version": "1.1.1",
-  "description": "Typegoose adapter for @ptc-org/nestjs-query-core",
+  "description": "Typegoose adapter for @eavios/nestjs-query-core",
   "author": "john mcinall<johnmcinall@gmail.com>",
-  "homepage": "https://github.com/tripss/nestjs-query#readme",
+  "homepage": "https://github.com/eavios/nestjs-query#readme",
   "license": "MIT",
   "main": "src/index.js",
   "types": "src/index.d.ts",
@@ -32,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tripss/nestjs-query.git",
+    "url": "git+https://github.com/eavios/nestjs-query.git",
     "directory": "packages/query-typegoose"
   },
   "bugs": {
-    "url": "https://github.com/tripss/nestjs-query/issues"
+    "url": "https://github.com/eavios/nestjs-query/issues"
   }
 }

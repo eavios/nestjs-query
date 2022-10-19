@@ -1,4 +1,4 @@
-import { Filter } from '@ptc-org/nestjs-query-core'
+import { Filter } from '@eavios/nestjs-query-core'
 import { format as formatSql } from 'sql-formatter'
 
 import { WhereBuilder } from '../../src/query'

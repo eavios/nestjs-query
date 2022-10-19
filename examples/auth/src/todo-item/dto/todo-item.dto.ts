@@ -7,7 +7,7 @@ import {
   FilterableField,
   QueryOptions,
   Relation
-} from '@ptc-org/nestjs-query-graphql'
+} from '@eavios/nestjs-query-graphql'
 
 import { UserContext } from '../../auth/auth.interfaces'
 import { SubTaskDTO } from '../../sub-task/dto/sub-task.dto'

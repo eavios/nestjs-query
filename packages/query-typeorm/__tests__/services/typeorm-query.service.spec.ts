@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing'
 import { InjectRepository, TypeOrmModule } from '@nestjs/typeorm'
-import { Filter, SortDirection } from '@ptc-org/nestjs-query-core'
+import { Filter, SortDirection } from '@eavios/nestjs-query-core'
 import { plainToClass } from 'class-transformer'
 import { Repository } from 'typeorm'
 

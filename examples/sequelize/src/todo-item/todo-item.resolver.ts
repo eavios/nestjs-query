@@ -1,6 +1,6 @@
 import { Args, Query, Resolver } from '@nestjs/graphql'
-import { Filter, InjectAssemblerQueryService, QueryService } from '@ptc-org/nestjs-query-core'
-import { ConnectionType } from '@ptc-org/nestjs-query-graphql'
+import { Filter, InjectAssemblerQueryService, QueryService } from '@eavios/nestjs-query-core'
+import { ConnectionType } from '@eavios/nestjs-query-graphql'
 
 import { TodoItemDTO } from './dto/todo-item.dto'
 import { TodoItemAssembler } from './todo-item.assembler'

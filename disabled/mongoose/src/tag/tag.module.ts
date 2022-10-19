@@ -1,6 +1,6 @@
-import { NestjsQueryGraphQLModule } from '@ptc-org/nestjs-query-graphql';
+import { NestjsQueryGraphQLModule } from '@eavios/nestjs-query-graphql';
 import { Module } from '@nestjs/common';
-import { NestjsQueryMongooseModule } from '@ptc-org/nestjs-query-mongoose';
+import { NestjsQueryMongooseModule } from '@eavios/nestjs-query-mongoose';
 import { TagInputDTO } from './dto/tag-input.dto';
 import { TagDTO } from './dto/tag.dto';
 import { TagEntity, TagEntitySchema } from './tag.entity';

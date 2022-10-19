@@ -1,5 +1,5 @@
 import { BadRequestException } from '@nestjs/common'
-import { applyFilter, Class, Filter } from '@ptc-org/nestjs-query-core'
+import { applyFilter, Class, Filter } from '@eavios/nestjs-query-core'
 import { plainToClass } from 'class-transformer'
 import { validate } from 'class-validator'
 

@@ -1,4 +1,4 @@
-import { Query } from '@ptc-org/nestjs-query-core'
+import { Query } from '@eavios/nestjs-query-core'
 
 import { OffsetQueryArgsType } from '../../../query'
 import { Count, Pager, QueryMany } from '../../interfaces'

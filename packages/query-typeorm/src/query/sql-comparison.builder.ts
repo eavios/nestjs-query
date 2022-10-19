@@ -1,4 +1,4 @@
-import { CommonFieldComparisonBetweenType, FilterComparisonOperators } from '@ptc-org/nestjs-query-core'
+import { CommonFieldComparisonBetweenType, FilterComparisonOperators } from '@eavios/nestjs-query-core'
 import { ObjectLiteral } from 'typeorm'
 
 import { randomString } from '../common'

@@ -1,5 +1,5 @@
 import { getRepositoryToken } from '@nestjs/typeorm'
-import { getQueryServiceToken } from '@ptc-org/nestjs-query-core'
+import { getQueryServiceToken } from '@eavios/nestjs-query-core'
 import { instance, mock } from 'ts-mockito'
 import { Repository } from 'typeorm'
 

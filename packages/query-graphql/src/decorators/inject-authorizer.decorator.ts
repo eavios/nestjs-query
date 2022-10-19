@@ -1,5 +1,5 @@
 import { Inject } from '@nestjs/common'
-import { Class } from '@ptc-org/nestjs-query-core'
+import { Class } from '@eavios/nestjs-query-core'
 
 import { getAuthorizerToken } from '../auth'
 

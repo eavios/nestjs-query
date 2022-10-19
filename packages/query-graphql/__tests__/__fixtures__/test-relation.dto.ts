@@ -1,5 +1,5 @@
 import { ID, ObjectType } from '@nestjs/graphql'
-import { FilterableField } from '@ptc-org/nestjs-query-graphql'
+import { FilterableField } from '@eavios/nestjs-query-graphql'
 
 @ObjectType()
 export class TestRelationDTO {

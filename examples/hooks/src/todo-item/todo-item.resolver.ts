@@ -1,7 +1,7 @@
 import { UseGuards, UseInterceptors } from '@nestjs/common'
 import { Mutation, Resolver } from '@nestjs/graphql'
-import { InjectQueryService, mergeFilter, QueryService, UpdateManyResponse } from '@ptc-org/nestjs-query-core'
-import { HookInterceptor, HookTypes, MutationHookArgs, UpdateManyResponseType } from '@ptc-org/nestjs-query-graphql'
+import { InjectQueryService, mergeFilter, QueryService, UpdateManyResponse } from '@eavios/nestjs-query-core'
+import { HookInterceptor, HookTypes, MutationHookArgs, UpdateManyResponseType } from '@eavios/nestjs-query-graphql'
 
 import { AuthGuard } from '../auth/auth.guard'
 import { TodoItemDTO } from './dto/todo-item.dto'

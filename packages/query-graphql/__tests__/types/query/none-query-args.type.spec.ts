@@ -11,8 +11,8 @@ import {
   Query,
   Resolver
 } from '@nestjs/graphql'
-import { SortDirection, SortNulls } from '@ptc-org/nestjs-query-core'
-import { CursorQueryArgsType, FilterableField, PagingStrategies, QueryArgsType } from '@ptc-org/nestjs-query-graphql'
+import { SortDirection, SortNulls } from '@eavios/nestjs-query-core'
+import { CursorQueryArgsType, FilterableField, PagingStrategies, QueryArgsType } from '@eavios/nestjs-query-graphql'
 import { plainToClass } from 'class-transformer'
 import { validateSync } from 'class-validator'
 

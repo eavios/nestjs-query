@@ -1,9 +1,9 @@
 {
-  "name": "@ptc-org/nestjs-query-graphql",
+  "name": "@eavios/nestjs-query-graphql",
   "version": "1.1.1",
   "description": "Nestjs graphql query adapter",
   "author": "doug-martin <doug@dougamartin.com>",
-  "homepage": "https://github.com/tripss/nestjs-query#readme",
+  "homepage": "https://github.com/eavios/nestjs-query#readme",
   "keywords": [
     "graphql",
     "crud",
@@ -25,11 +25,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tripss/nestjs-query.git",
+    "url": "git+https://github.com/eavios/nestjs-query.git",
     "directory": "packages/query-graphql"
   },
   "bugs": {
-    "url": "https://github.com/tripss/nestjs-query/issues"
+    "url": "https://github.com/eavios/nestjs-query/issues"
   },
   "dependencies": {
     "graphql-fields": "^2.0.3",

@@ -13,7 +13,7 @@ import {
   QueryOptions,
   UpdateManyInputType,
   UpdateOneInputType
-} from '@ptc-org/nestjs-query-graphql'
+} from '@eavios/nestjs-query-graphql'
 
 import { GqlContext } from '../../auth.guard'
 import { getUserName } from '../../helpers'

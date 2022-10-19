@@ -1,4 +1,4 @@
-import { QueryService } from '@ptc-org/nestjs-query-core'
+import { QueryService } from '@eavios/nestjs-query-core'
 
 import { DeepPartial } from '../../src/common'
 import { NoOpQueryService } from '../../src/services/noop-query.service'

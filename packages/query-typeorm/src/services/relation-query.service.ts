@@ -8,7 +8,7 @@ import {
   GetByIdOptions,
   ModifyRelationOptions,
   Query
-} from '@ptc-org/nestjs-query-core'
+} from '@eavios/nestjs-query-core'
 import lodashOmit from 'lodash.omit'
 import { RelationQueryBuilder as TypeOrmRelationQueryBuilder, Repository } from 'typeorm'
 import { RelationMetadata } from 'typeorm/metadata/RelationMetadata'

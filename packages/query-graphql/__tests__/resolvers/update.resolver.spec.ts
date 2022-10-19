@@ -1,5 +1,5 @@
 import { Field, InputType, Query, Resolver } from '@nestjs/graphql'
-import { Filter, UpdateManyResponse } from '@ptc-org/nestjs-query-core'
+import { Filter, UpdateManyResponse } from '@eavios/nestjs-query-core'
 import {
   InjectPubSub,
   MutationArgsType,
@@ -7,7 +7,7 @@ import {
   UpdateOneInputType,
   UpdateResolver,
   UpdateResolverOpts
-} from '@ptc-org/nestjs-query-graphql'
+} from '@eavios/nestjs-query-graphql'
 import { PubSub } from 'graphql-subscriptions'
 import { anything, deepEqual, instance, mock, objectContaining, verify, when } from 'ts-mockito'
 

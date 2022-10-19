@@ -1,7 +1,7 @@
 // eslint-disable-next-line max-classes-per-file
 import { Field, ObjectType, Query, Resolver } from '@nestjs/graphql'
-import { SortDirection } from '@ptc-org/nestjs-query-core'
-import { CursorConnectionType, CursorPagingType, PagingStrategies, StaticConnectionType } from '@ptc-org/nestjs-query-graphql'
+import { SortDirection } from '@eavios/nestjs-query-core'
+import { CursorConnectionType, CursorPagingType, PagingStrategies, StaticConnectionType } from '@eavios/nestjs-query-graphql'
 import { plainToClass } from 'class-transformer'
 
 import { KeySet } from '../../../src/decorators'

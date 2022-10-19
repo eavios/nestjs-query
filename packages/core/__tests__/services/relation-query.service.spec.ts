@@ -1,4 +1,4 @@
-import { AggregateQuery, QueryService, RelationQueryService } from '@ptc-org/nestjs-query-core'
+import { AggregateQuery, QueryService, RelationQueryService } from '@eavios/nestjs-query-core'
 import { deepEqual, instance, mock, reset, when } from 'ts-mockito'
 
 describe('RelationQueryService', () => {

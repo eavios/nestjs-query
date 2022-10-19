@@ -1,4 +1,4 @@
-import { Class, QueryService } from '@ptc-org/nestjs-query-core'
+import { Class, QueryService } from '@eavios/nestjs-query-core'
 
 import { getRelations } from '../../decorators'
 import { BaseResolverOptions } from '../../decorators/resolver-method.decorator'

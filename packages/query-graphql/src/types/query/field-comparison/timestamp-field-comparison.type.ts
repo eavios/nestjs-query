@@ -1,5 +1,5 @@
 import { Field, GraphQLTimestamp, InputType } from '@nestjs/graphql'
-import { Class, FilterFieldComparison } from '@ptc-org/nestjs-query-core'
+import { Class, FilterFieldComparison } from '@eavios/nestjs-query-core'
 import { Type } from 'class-transformer'
 import { IsBoolean, IsDate, IsOptional, ValidateNested } from 'class-validator'
 

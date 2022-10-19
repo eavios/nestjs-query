@@ -8,7 +8,7 @@ import {
   InjectAssemblerQueryService,
   InjectQueryService,
   QueryService
-} from '@ptc-org/nestjs-query-core'
+} from '@eavios/nestjs-query-core'
 import { PubSub } from 'graphql-subscriptions'
 
 import { InjectPubSub } from '../decorators'

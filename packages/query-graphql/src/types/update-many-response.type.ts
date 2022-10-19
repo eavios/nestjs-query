@@ -1,5 +1,5 @@
 import { Field, Int, ObjectType } from '@nestjs/graphql'
-import { Class, UpdateManyResponse } from '@ptc-org/nestjs-query-core'
+import { Class, UpdateManyResponse } from '@eavios/nestjs-query-core'
 
 /** @internal */
 let updateManyResponseType: Class<UpdateManyResponse> | null = null

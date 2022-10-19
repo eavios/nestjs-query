@@ -1,5 +1,5 @@
 import { DynamicModule, ForwardReference, Provider } from '@nestjs/common'
-import { Assembler, Class, NestjsQueryCoreModule } from '@ptc-org/nestjs-query-core'
+import { Assembler, Class, NestjsQueryCoreModule } from '@eavios/nestjs-query-core'
 
 import { AutoResolverOpts, createAuthorizerProviders, createHookProviders, createResolvers } from './providers'
 import { ReadResolverOpts } from './resolvers'

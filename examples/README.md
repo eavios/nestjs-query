@@ -40,4 +40,4 @@ npm run start -- basic
 ```
 
 
-To read more about `nestjs-query` checkout the [docs](https://tripss.github.io/nestjs-query/docs/introduction/getting-started)
+To read more about `nestjs-query` checkout the [docs](https://eavios.github.io/nestjs-query/docs/introduction/getting-started)

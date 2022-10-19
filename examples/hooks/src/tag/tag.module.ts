@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common'
-import { NestjsQueryGraphQLModule } from '@ptc-org/nestjs-query-graphql'
-import { NestjsQueryTypeOrmModule } from '@ptc-org/nestjs-query-typeorm'
+import { NestjsQueryGraphQLModule } from '@eavios/nestjs-query-graphql'
+import { NestjsQueryTypeOrmModule } from '@eavios/nestjs-query-typeorm'
 
 import { AuthModule } from '../auth/auth.module'
 import { TagDTO } from './dto/tag.dto'

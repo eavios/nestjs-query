@@ -4131,9 +4131,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ptc-org/nestjs-query-core@workspace:packages/core":
+"@eavios/nestjs-query-core@workspace:packages/core":
   version: 0.0.0-use.local
-  resolution: "@ptc-org/nestjs-query-core@workspace:packages/core"
+  resolution: "@eavios/nestjs-query-core@workspace:packages/core"
   dependencies:
     lodash.merge: ^4.6.2
     reflect-metadata: ^0.1.13
@@ -4144,9 +4144,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ptc-org/nestjs-query-graphql@workspace:packages/query-graphql":
+"@eavios/nestjs-query-graphql@workspace:packages/query-graphql":
   version: 0.0.0-use.local
-  resolution: "@ptc-org/nestjs-query-graphql@workspace:packages/query-graphql"
+  resolution: "@eavios/nestjs-query-graphql@workspace:packages/query-graphql"
   dependencies:
     graphql-fields: ^2.0.3
     lodash.omit: ^4.5.0
@@ -4168,9 +4168,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ptc-org/nestjs-query-mongoose@workspace:packages/query-mongoose":
+"@eavios/nestjs-query-mongoose@workspace:packages/query-mongoose":
   version: 0.0.0-use.local
-  resolution: "@ptc-org/nestjs-query-mongoose@workspace:packages/query-mongoose"
+  resolution: "@eavios/nestjs-query-mongoose@workspace:packages/query-mongoose"
   dependencies:
     camel-case: ^4.1.2
     lodash.escaperegexp: ^4.1.2
@@ -4183,9 +4183,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ptc-org/nestjs-query-sequelize@workspace:packages/query-sequelize":
+"@eavios/nestjs-query-sequelize@workspace:packages/query-sequelize":
   version: 0.0.0-use.local
-  resolution: "@ptc-org/nestjs-query-sequelize@workspace:packages/query-sequelize"
+  resolution: "@eavios/nestjs-query-sequelize@workspace:packages/query-sequelize"
   dependencies:
     camel-case: ^4.1.2
     lodash.pick: 4.4.0
@@ -4198,9 +4198,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ptc-org/nestjs-query-typegoose@workspace:packages/query-typegoose":
+"@eavios/nestjs-query-typegoose@workspace:packages/query-typegoose":
   version: 0.0.0-use.local
-  resolution: "@ptc-org/nestjs-query-typegoose@workspace:packages/query-typegoose"
+  resolution: "@eavios/nestjs-query-typegoose@workspace:packages/query-typegoose"
   dependencies:
     camel-case: ^4.1.2
     is-class: 0.0.9
@@ -4215,9 +4215,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@ptc-org/nestjs-query-typeorm@workspace:packages/query-typeorm":
+"@eavios/nestjs-query-typeorm@workspace:packages/query-typeorm":
   version: 0.0.0-use.local
-  resolution: "@ptc-org/nestjs-query-typeorm@workspace:packages/query-typeorm"
+  resolution: "@eavios/nestjs-query-typeorm@workspace:packages/query-typeorm"
   dependencies:
     camel-case: ^4.1.2
     lodash.filter: ^4.6.0

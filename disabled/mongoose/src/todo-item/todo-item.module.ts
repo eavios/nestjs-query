@@ -1,6 +1,6 @@
-import { NestjsQueryGraphQLModule } from '@ptc-org/nestjs-query-graphql';
+import { NestjsQueryGraphQLModule } from '@eavios/nestjs-query-graphql';
 import { Module } from '@nestjs/common';
-import { NestjsQueryMongooseModule } from '@ptc-org/nestjs-query-mongoose';
+import { NestjsQueryMongooseModule } from '@eavios/nestjs-query-mongoose';
 import { AuthGuard } from '../auth.guard';
 import { TodoItemInputDTO } from './dto/todo-item-input.dto';
 import { TodoItemUpdateDTO } from './dto/todo-item-update.dto';
